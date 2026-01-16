@@ -1,6 +1,5 @@
 # Teaching Neural Networks to Count: An Exploration in Digit Parity Detection
-****Identifying even or odd number of digits in any whole number without using number of digits in features****
-
+***Can a neural network learn to count without being told how to count?***
 
 ## Introduction
 
@@ -47,7 +46,7 @@ When trained on the balanced dataset, Random Forests achieved perfect accuracy, 
 | Model | Validation Accuracy | Test Accuracy |
 |-------|-------------------|---------------|
 | Random Forest | 100.00% | 100.00% |
-| Gradient Boosted Trees | - | 99.51% |
+| Gradient Boosted Trees | 99.63% | 99.51% |
 | MLP + RBF Features | 99.94% | 95.96% |
 
 Gradient Boosted Trees performed admirably with 99.51% test accuracy, though notably imperfect. The sequential refinement strategy of boosting may have introduced slight overfitting to specific patterns in the training data. When examining the failure cases, errors clustered around numbers with 5 and 7 digits, suggesting the model struggled with certain transitional ranges.
