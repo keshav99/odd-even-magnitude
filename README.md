@@ -1,5 +1,5 @@
 # Teaching Neural Networks to Count: An Exploration in Digit Parity Detection
-***Can a neural network learn to count without being told how to count?***
+****Can a neural network learn to count without being told how to count?****
 
 ## Introduction
 
